@@ -4,4 +4,7 @@ from django.shortcuts import render
 
 
 def jindex(request):
-    return render(request, 'jindex.html')
+    context = {
+        'days': [1, 2, 3],
+    }
+    return render(request, 'days.html', context)

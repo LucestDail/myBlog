@@ -8,7 +8,8 @@ def index(request):
 
 
 def blog(request):
-    postlist = Post.objects.all()
+    # postlist = Post.objects.all()
+    postlist = Post.objects.filter(writer__startswith="123")
     return render(request, 'main/blog.html', {'postlist': postlist})
 
 
