@@ -19,12 +19,11 @@ def posting(request, pk):
 
 def new_post(request):
     if request.method == 'POST':
-        if request.POST.get('mainphoto'):
-            new_article = Post.objects.create(
-                writer=request.POST.get('writer'),
-                title=request.POST.get('title'),
-                contents=request.POST.get('contents'),
-            )
+        new_article = Post.objects.create(
+            writer=request.POST['writer'],
+            title=request.POST['title'],
+            contents=request.POST['contents'],
+        )
         return redirect('/blog/')
     return render(request, 'main/new_post.html')
 
@@ -35,3 +34,14 @@ def remove_post(request, pk):
         post.delete()
         return redirect('/blog/')
     return render(request, 'main/remove_post.html', {'Post': post})
+
+
+def update_post(request, pk):
+    if request.method == 'POST':
+        post = Post.objects.get(pk=pk)
+        post.title = request.POST['writer']
+        post.contents = request.POST['contents']
+        post.writer = request.POST['writer']
+        post.save()
+        return redirect('/blog/')
+    return render(request, 'main/update_post.html')

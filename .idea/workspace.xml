@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="399631f5-68aa-4475-afea-4f26ec97527b" name="Default Changelist" comment="" />
+    <list default="true" id="399631f5-68aa-4475-afea-4f26ec97527b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_web_study/journal/templates/jindex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_web_study/journal/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_web_study/main/templates/main/update_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_web_study/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/my_web_study/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_web_study/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_web_study/main/templates/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_web_study/main/templates/main/posting.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_web_study/main/templates/main/posting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_web_study/main/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_web_study/main/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_web_study/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_web_study/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_web_study/my_web_study/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_web_study/my_web_study/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_web_study/my_web_study/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_web_study/my_web_study/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +28,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1o6N52J1tAktl8J2Dz3yo69xn5I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,6 +41,13 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/my_web_study/journal/templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dhtmd\PycharmProjects\my_web_study\my_web_study\journal\templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -58,6 +82,18 @@
       <updated>1612602894063</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

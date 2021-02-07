@@ -9,5 +9,6 @@ urlpatterns = [
     path('blog/', blog),
     path('blog/<int:pk>', posting, name="posting"),
     path('blog/new_post/', new_post),
-    path('blog/<int:pk>/remove/', remove_post)
+    path('blog/<int:pk>/remove/', remove_post),
+    path('blog/<int:pk>/update/', update_post())
 ]
